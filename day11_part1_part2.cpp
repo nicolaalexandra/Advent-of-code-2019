@@ -172,7 +172,8 @@ int main (){
         else nr = 0;
 
         if (!ok){
-            nr = 1;
+            /// nr = 0; -> pentru partea 1
+            nr = 1; /// pentru partea a doua
             ok = 1;
         }
         cul = get_next(nr);
